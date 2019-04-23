@@ -42,3 +42,24 @@ Use the [ESLint VSCode plugin](https://marketplace.visualstudio.com/items?itemNa
 #### Atom
 
 Use the [ESLint Atom plugin](https://atom.io/packages/linter-eslint) and make sure to enable `Fix errors on save`.
+
+## Development
+
+For making changes to this project make sure to run the following.
+
+```shell
+npm i
+npm run bootstrap
+```
+
+Make changes and then run the following to verify changes.
+
+```shell
+npm run test
+```
+
+Publishing a new version.
+
+```shell
+npm run publish
+```
