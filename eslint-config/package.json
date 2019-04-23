@@ -1,0 +1,45 @@
+{
+  "name": "@partumgmbh/eslint-config",
+  "description": "ESLint Base Configuration",
+  "version": "1.1.2",
+  "bugs": {
+    "url": "https://github.com/partumgmbh/eslint-config/issues"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier": "^1.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/partumgmbh/eslint-config/blob/master/eslint-config/README.md",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "partumgmbh"
+  ],
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">= 5"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/partumgmbh/eslint-config.git"
+  },
+  "scripts": {
+    "test": "eslint ."
+  }
+}

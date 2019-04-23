@@ -1,0 +1,26 @@
+{
+  "name": "root",
+  "description": "ESLint configuration used throughout projects",
+  "version": "1.0.0",
+  "bugs": {
+    "url": "https://github.com/partumgmbh/eslint-config/issues"
+  },
+  "devDependencies": {
+    "lerna": "^3.13.3"
+  },
+  "homepage": "https://github.com/partumgmbh/eslint-config#readme",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "partumgmbh"
+  ],
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/partumgmbh/eslint-config.git"
+  },
+  "scripts": {
+    "test": "lerna run test"
+  }
+}
