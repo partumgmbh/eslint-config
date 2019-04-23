@@ -39,6 +39,6 @@
     "test": "eslint ."
   },
   "devDependencies": {
-    "eslint": "^5.10.0"
+    "eslint": "^5.16.0"
   }
 }
