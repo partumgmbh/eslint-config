@@ -21,6 +21,8 @@
     "url": "git+https://github.com/partumgmbh/eslint-config.git"
   },
   "scripts": {
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "bootstrap": "lerna bootstrap",
+    "publish": "lerna publish"
   }
 }
