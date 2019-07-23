@@ -41,5 +41,6 @@
   },
   "scripts": {
     "test": "eslint ."
-  }
+  },
+  "gitHead": "731527820fe1bd909d99e2334856aaa4a976f919"
 }
