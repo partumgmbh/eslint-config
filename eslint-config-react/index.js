@@ -29,6 +29,10 @@ module.exports = {
     'jest/no-identical-title': 'error',
     'jest/prefer-to-have-length': 'warn',
     'jest/valid-expect': 'error',
+    'react/jsx-closing-bracket-location': [
+      1,
+      {selfClosing: 'line-aligned', nonEmpty: 'after-props'},
+    ],
   },
   parser: 'babel-eslint',
   settings: {
