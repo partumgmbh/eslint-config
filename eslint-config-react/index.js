@@ -2,6 +2,8 @@ module.exports = {
   plugins: ['filenames', 'jest', 'jasmine'],
   extends: [
     '@partumgmbh',
+    'standard',
+    'standard-jsx',
     'standard-react',
     'prettier',
     'plugin:jest/recommended',
