@@ -15,9 +15,18 @@ module.exports = {
         useTabs: false,
       },
     ],
+    'comma-dangle': [
+      'error',
+      {
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
+        imports: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'never',
+      },
+    ],
     'import/no-cycle': ['error', {maxDepth: 2}],
     'promise/prefer-await-to-then': 'error',
-    'comma-dangle': ['error', 'always-multiline'],
     'prefer-const': 'error',
   },
 }

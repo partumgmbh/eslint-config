@@ -29,4 +29,9 @@ module.exports = {
     'jest/valid-expect': 'error',
   },
   parser: 'babel-eslint',
+  settings: {
+    jest: {
+      version: 26,
+    },
+  },
 }

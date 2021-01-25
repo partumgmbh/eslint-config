@@ -6,7 +6,7 @@
     "url": "https://github.com/partumgmbh/eslint-config/issues"
   },
   "devDependencies": {
-    "lerna": "^3.13.3"
+    "lerna": "^3.22.1"
   },
   "homepage": "https://github.com/partumgmbh/eslint-config#readme",
   "keywords": [
@@ -23,6 +23,7 @@
   "scripts": {
     "test": "lerna run test",
     "bootstrap": "lerna bootstrap",
-    "publish": "lerna publish"
+    "publish": "lerna publish",
+    "clean": "lerna clean"
   }
 }
