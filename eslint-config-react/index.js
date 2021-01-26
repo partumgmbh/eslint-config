@@ -8,6 +8,7 @@ module.exports = {
     'prettier',
     'plugin:jest/recommended',
     'plugin:jasmine/recommended',
+    'plugin:react-hooks/recommended',
   ],
   env: {
     es6: true,
