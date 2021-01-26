@@ -1,7 +1,7 @@
 {
   "name": "@partumgmbh/eslint-config-react",
   "description": "ESLint React Configuration",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "bugs": {
     "url": "https://github.com/partumgmbh/eslint-config/issues"
   },
